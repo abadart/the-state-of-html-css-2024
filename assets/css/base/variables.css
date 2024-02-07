@@ -1,0 +1,22 @@
+:root {
+    --primary-clr: rgb(245,130,32);
+    --primary-clr-contrast: rgb(255, 255, 255);
+    --secondary-clr: rgb(0,127,145);
+    --secondary-clr-contrast: rgb(255, 255, 255);
+    --grey-dark: rgb(88,89,91);
+    --grey-light: rgb(225,225,225);
+
+    --gutter: 1rem;
+    --gutter-s: calc(var(--gutter) / 2);
+    --gutter-m: calc(var(--gutter) * 1.5);
+    --gutter-l: calc(var(--gutter) * 2);
+    --gutter-xl: calc(var(--gutter) * 2.5);
+
+    --max-content-width: 1180px;
+
+    --txt-color: var(--grey-dark);
+    --header-color: var(--secondary-clr);
+
+    --gradient-ordina: linear-gradient(to right, rgb(245, 130, 32), rgb(190, 24, 35))
+}
+

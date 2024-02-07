@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap');
+@import url('./variables.css');
+
+:root {
+    --fs0: 1rem;
+    --fs1: 1.563rem;
+    --fs2: 2.441rem;
+    --fs3: 3.052rem;
+    --fs4: 3.815rem;
+}
+
+* {
+    color: var(--txt-color);
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: var(--fs0);
+    line-height: 1.25;
+}
+
+h1 {
+    color: var(--header-color);
+    font-size: var(--fs3);
+    font-weight: 200;
+    line-height: 1.25;
+    margin: 0 0 1rem 0;
+    padding: 0;
+}
+
+h2 {
+    color: var(--header-color);
+    font-size: var(--fs2);
+    font-weight: 200;
+    line-height: 1.25;
+    margin: 0 0 var(--gutter-m) 0;
+    padding: 0;
+}
+
+h3 {
+    color: var(--header-color);
+    font-size: var(--fs1);
+    font-weight: 200;
+    line-height: 1.25;
+    margin: 0 0 var(--gutter-m) 0;
+    padding: 0;
+}
+
+p {
+    /* color: var(--txt-color); */
+    font-size: var(--fs0);
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}

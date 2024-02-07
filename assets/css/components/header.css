@@ -1,0 +1,12 @@
+header {
+    --header-color: var(--primary-clr-contrast);
+    background: var(--gradient-ordina);
+    padding: 2rem;
+
+    grid-column-start: 1;
+    grid-column-end: -1;
+
+    h1 {
+        text-align: center;
+    }
+}

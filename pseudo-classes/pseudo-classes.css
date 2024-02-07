@@ -1,0 +1,45 @@
+@import url('../../css/base/variables.css');
+@import url('../../css/components/buttons.css');
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/:has */
+
+article {
+    border: 1px solid var(--grey-light);
+    display: flex;
+    flex-direction: column;
+    padding: var(--gutter);
+  
+    h2 {
+        font-size: 2rem;
+        margin: 0;
+        order: 1;
+    }
+
+    p {
+        order: 2;
+    }
+    
+    img {
+        order: 0;
+        height: 100px;
+        object-fit: cover;
+    }
+}
+
+article:has(img){
+
+}
+
+article:not(:has(img)){
+
+}
+
+.cards-overview {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--gutter);
+}
+
+.cards-overview:has(:nth-child(2)) {
+    /* grid-template-columns: repeat(2, 1fr); */
+}

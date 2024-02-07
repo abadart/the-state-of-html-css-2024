@@ -1,0 +1,27 @@
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/grid */
+
+/* Basic grid template */
+.grid-layout {
+    /* display: grid; */
+    /* grid-template-columns: ; */
+
+    /* grid-auto-rows: min-content; */
+}
+
+
+.something {
+    background-color: var(--primary-clr);
+    color: var(--secondary-clr-contrast);
+    text-align: center;
+    padding: 2rem;
+}
+
+
+/* Use labels */
+/* [layout-start] 1fr 4fr 1fr [layout-end] */
+
+
+
+/* Use template areas */
+
+

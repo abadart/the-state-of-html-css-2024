@@ -1,0 +1,25 @@
+@import url('./components/buttons.css');
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--gutter);
+
+    article {
+        /* background: var(--gradient-ordina); */
+        padding: var(--gutter);
+    
+        .btn {
+
+        }
+
+        h2 {
+            text-wrap: balance;
+        }
+    
+        p {
+            text-wrap: pretty;
+        }
+    }
+}
+

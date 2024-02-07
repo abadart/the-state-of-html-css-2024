@@ -1,0 +1,46 @@
+@import url('/assets/css/base/reset.css');
+@import url('/assets/css/base/variables.css');
+@import url('/assets/css/base/typografy.css');
+
+body {
+    --header-color: white;
+}
+
+header {
+    background: var(--gradient-ordina);
+    padding: 2rem;
+    margin: 2rem;
+}
+
+nav {
+
+}
+
+search {
+
+}
+
+main {
+    background: var(--gradient-ordina);
+    padding: 2rem;
+    margin: 2rem;
+}
+
+aside {
+    background: var(--gradient-ordina);
+    padding: 2rem;
+    margin: 2rem;
+}
+
+section {
+    background: var(--gradient-ordina);
+    padding: 2rem;
+    margin: 2rem;
+}
+
+footer {
+    background: var(--gradient-ordina);
+    padding: 2rem;
+    margin: 2rem;
+}
+

@@ -1,0 +1,17 @@
+button,
+.btn {
+    /* background: var(--primary-clr); */
+    border-radius: 0.2rem;
+    box-shadow: var(--box-shadow);
+    /* color: var(--primary-clr-ultra-light); */
+    display: inline-block;
+    padding: 0.75rem 1rem;
+    margin: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    &:hover {
+        /* color: var(--primary-clr); */
+        /* background: var(--secondary-clr); */
+    }
+}

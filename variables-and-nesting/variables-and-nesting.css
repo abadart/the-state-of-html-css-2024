@@ -1,0 +1,40 @@
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting */
+
+:root {
+    --clr-ordina-primary : rgb(245,130,32);
+    --clr-ordina-secondary : rgb(0,127,145);
+    --clr-sopra-primary : rgb(190, 24, 35);
+}
+
+h2 {
+    
+}
+
+.btn {
+
+}
+
+article {
+    
+}
+
+article h2 {
+    
+}
+
+article .btn {
+    
+}
+
+article.green {
+
+}
+
+article.green h2 {
+
+}
+
+article.green .btn {
+
+}

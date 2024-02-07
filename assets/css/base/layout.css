@@ -1,0 +1,21 @@
+.default-layout {
+    display: grid;
+    gap: var(--gutter);
+    grid-template-columns: [fullwidth-start] minmax(var(--gutter), 1fr) [content-start] min(100% - (4*var(--gutter)), var(--max-content-width)) [content-end] minmax(var(--gutter), 1fr) [fullwidth-end];
+    align-items: start;
+    grid-auto-rows: min-content;
+}
+
+.default-layout {
+    main {
+        grid-column: content;
+    }
+}
+
+.sidebar-layout {
+    display: grid;
+    gap: var(--gutter);
+    grid-template-columns: 1fr repeat(4, 2fr) 1fr;
+    align-items: start;
+    grid-auto-rows: min-content;
+}
